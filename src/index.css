@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-heading: 'Teko', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #050505;
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-teko {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Optimized Glow & Neon Utilities */
+.glow-blue {
+  box-shadow: 0 0 25px rgba(21, 101, 255, 0.3);
+}
+
+.glow-blue-sm {
+  box-shadow: 0 0 12px rgba(21, 101, 255, 0.25);
+}
+
+.glow-blue-lg {
+  box-shadow: 0 0 35px rgba(21, 101, 255, 0.4);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 12px rgba(21, 101, 255, 0.6);
+}
+
+/* Lightweight Glassmorphism for Smooth Rendering */
+.glass-panel {
+  background: rgba(8, 15, 30, 0.85);
+  border: 1px solid rgba(21, 101, 255, 0.2);
+}
+
+.glass-card {
+  background: rgba(12, 18, 30, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-card:hover {
+  border-color: rgba(21, 101, 255, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1565FF;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+

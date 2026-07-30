@@ -1,0 +1,6 @@
+{
+  "name": "SPORT GYM",
+  "description": "Site oficial da academia SPORT GYM - O lugar onde sua evolução começa. Treine com equipamentos modernos, ambiente organizado e profissionais qualificados em Itaquaquecetuba - SP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
